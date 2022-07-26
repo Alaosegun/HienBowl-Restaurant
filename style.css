@@ -1,0 +1,508 @@
+@font-face {
+    font-family: love Rabbit;
+    src: url(./love-rabbit-font/LoveRabbitPersonalUse-lgRaZ.ttf);
+}
+@font-face {
+    font-family: xabilon;
+    src: url(.//font-28/Xabilon.otf);
+}
+@font-face {
+    font-family: better grade;
+    src: url(./better-grade-font/BetterGrade-519DV.ttf);
+}
+
+html{
+  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* height: 100vh;
+    width: 100vh;
+    margin: 0 auto;  */
+    background-color: lavender;
+}
+
+
+
+header{
+    /* background-color: peachpuff ; */
+    height: 800px;
+    background: rgb(255, 181, 117);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav ul{
+    float: right;
+    padding-right: 110px;
+  
+}
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+nav  img{
+position: relative;
+top: 60px;
+left: 1050px;
+}
+header img{
+position: relative;
+/* top: 60px; */
+/* left: 10px; */
+bottom: 510px;
+}
+header .logo{
+    padding-left: 100px;
+   position: relative;
+   font-size: 50px;
+   text-transform: uppercase;
+   bottom: 10px;
+   font-family: better grade;
+   font-weight: 500;
+
+}
+header span{
+    color: rgb(176, 3, 3);
+}
+header section{
+    display: flex;
+}
+section div h3{
+    position: relative;
+    font-size:100px;
+    color: saddlebrown;
+    font-family:Love Rabbit;
+    left: 350px;
+    bottom: 60px;
+}
+section div p{
+    width: 300px;
+    position: relative;
+    /* top: 500px; */
+    left: 360px;
+    bottom: 270px;
+    /* right: 20px; */
+}
+section div img{
+    position: relative;
+   /* right: 20px; */
+   /* top: 20px; */
+   /* bottom: 660px; */
+   /* left: 50px; */
+   right: 850px;
+  bottom: 90px;
+  
+}
+.semi-circle{
+    width: 360px;
+    height: 360px;
+    border: 2px solid green;
+    position: relative;
+    border: 100px solid transparent;
+    border-radius: 50%;
+    border-top: 100px solid rgb(134, 63, 12);
+    border-right: 100px solid rgb(134, 63, 12) ;
+    transform: rotate(45deg);
+    left: 345px;
+    top: 50px;  
+}
+.view1{
+    background-color: rgb(176, 3, 3);
+    position: relative;
+    bottom: 250px;
+    left: 360px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    width: 190px;
+}
+
+.view1 .button-text1{
+    color: whitesmoke;
+    font-size: 15px;
+    height: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.calories{
+    background-color: rgb(134, 63, 12);
+    width: 280;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    left: 550px;
+   bottom: 25px;
+}
+.calories-text{
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.calories .dropicon{
+    position: relative;
+   top : 5px;
+   left: 5px;
+  
+}
+.leaf2{
+    position: relative;
+    bottom: 140px;
+    left: 100px;
+}
+
+.section2{
+    background-color: lavender;
+    height: 900px;
+    position: relative;
+   /* bottom: 10px; */
+
+    
+}
+.hienbowl{
+    position: relative;
+    top: 175px;
+    
+}
+.section2 .img2{
+    position: relative;
+    bottom: 600px;
+    right: 250px;
+}
+.semi-circle2{
+    width: 280px;
+    height: 280px;
+    border: 2px solid green;
+    position: relative;
+    border: 80px solid transparent;
+    border-radius: 50%;
+    border-top: 80px solid khaki;
+    border-right: 80px solid khaki;
+    transform: rotate(45deg);
+    left: 300px;
+    /* top: 50px;   */
+    bottom: 53px;
+
+}
+.section2 h2{
+    position: relative;
+    bottom: 1430px;
+    left: 780px;
+    font-family:Love Rabbit;
+    font-size: 125px;
+    color: saddlebrown;
+}
+.section2 h5{
+    position: relative;
+    bottom: 1180px;
+    left: 787px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.section2 p{
+    position: relative;
+    bottom: 1700px;
+    width: 380px;
+    left: 780px;
+    font-size: 17px;
+}
+.view2{
+    background-color: rgb(176, 3, 3);
+    position: relative;
+    bottom: 1680;
+    left: 780px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    width: 160px;
+}
+.view2:hover{
+    background-color: rgb(125, 17, 17);
+    transition: all .3s;
+}
+.view2 .button-text2{
+    color: whitesmoke;
+    font-size: 15px;
+    height: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.section3{
+    background-color: saddlebrown;
+    height: 900px;
+    position: relative;
+    bottom: 45px;
+    flex-wrap: wrap;
+}
+.imgcircles{
+    position: relative;
+    /* top: 100px; */
+    /* margin: 0 auto; */
+    padding: 110px 0;
+}
+.section3 h4{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    position: relative;
+   top: 55px;
+}
+.section3 p{
+    text-align: center;
+    color: white;
+    width: 500px;
+    position: relative;
+    left: 500px;
+    top: 40px;
+}
+.semi-circle3{
+    width: 160px;
+    height: 160px;
+    border: 2px solid green;
+    position: relative;
+    border: 80px solid transparent;
+    border-radius: 50%;
+    border-top: 80px solid burlywood ;
+    border-right: 80px solid burlywood;
+    transform: rotate(45deg);
+    left: 130px;
+    top: 15px; 
+    /* right: 40px;  */
+}
+.semi-circle4{
+    width: 145px;
+    height: 145px;
+    border: 2px solid green;
+    position: relative;
+    border: 80px solid transparent;
+    border-radius: 50%;
+    border-top: 80px solid sandybrown ;
+    border-right: 80px solid sandybrown;
+    transform: rotate(45deg);
+    bottom: 585px;
+    left: 560px;
+}
+.semi-circle5{
+    width: 145px;
+    height: 145px;
+    border: 2px solid green;
+    position: relative;
+    border: 80px solid transparent;
+    border-radius: 50%;
+    border-top: 80px solid rgba(42, 243, 233, 0.704);
+    border-right: 80px solid rgba(42, 243, 233, 0.704);
+    transform: rotate(45deg);
+    bottom: 1200px;
+    left: 970px;
+}
+
+.img3-1{
+    position: relative;
+    bottom: 290px;
+    left: 115px;
+  
+}
+
+.img3-2{
+    position: relative;
+    bottom: 910px;
+    left: 520px;
+  
+}
+.img3-3{
+    position: relative;
+    bottom: 1490px;
+    left: 915px;
+  
+}
+.section3 .mushroom{
+    position: relative;
+   bottom: 200px;
+   /* left: 100px; */
+   left: 1100px;
+}
+.section4{
+    background-color: lavender;
+    height:900px;
+    position: relative;
+    bottom: 45px;
+}
+.section4 span{
+    /* float: right; */
+    /* justify-content: center;
+    align-items: center; */
+   padding-left: 160px;
+  font-size: 40px;
+  position: relative;
+ bottom: 180px;
+
+
+}
+.section4 .span2{
+    /* padding-left: 800px; */
+    font-size:15px;
+    position: relative;
+   /* bottom: 190px; */
+   width: 200px;
+   
+}
+.section4 .q1{
+    float: right;
+    width: 30%;
+    position: relative;
+    bottom: 90px;
+    right: 500px;
+    font-size: 17px;
+    
+}
+.section4 .q2{
+    float: right;
+    position: relative;
+    /* bottom:200px; */
+    /* right: 500px; */
+    font-size: 17px;
+    top: 50px;
+    
+}
+.sidepic{
+    position: relative;
+    right: 13px;
+    top: 200px;
+}
+.section4 .platewithsticks{
+    position: relative;
+    left: 1200px;
+    top: 150px;
+}
+.section4 .leaf2{
+    position: relative;
+    bottom: 280px;
+}
+/* .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.section5{
+    background-color: saddlebrown;
+    height: 400px;
+    position: relative;
+    /* bottom: 44px; */
+   bottom: 84px;
+}
+.section5 h4{
+    font-size: 30px;
+    color: azure;
+    padding-top: 140px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   margin-right: 800px;
+   position: relative;
+   top: 40px;
+}
+.section5 span{
+    /* justify-content: center;
+   align-items: center;
+   display: flex; */
+   margin-left: 175px;
+   color: azure;
+   position: relative;
+   bottom: 5px;
+}
+.section5 img{
+    float: right;
+    position: relative;
+    bottom: 200px;
+    right: 60px;
+}
+footer{
+    background-color: lavender;
+    height: 170px;
+    /* position: sticky; */
+    position: relative;
+    /* box-sizing: border-box; */
+    padding: 70px 0;
+    bottom: 30px;
+ 
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 500px;
+    /* margin-top: 30px; */
+}
+footer ul{
+    list-style: none;
+}
+
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    position: relative;
+    left: 35px;
+    color: dimgray;
+}
+
+.footer-col ul li:not(last-child){
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    display: block;
+
+}
+.footer-col ul li:hover{
+    padding-left: 15px;
+    transition: all .5s ease;
+    cursor: pointer;
+    color: dimgray;
+}
+.social-links{
+    padding-left: 40px;
+    display: flex;
+}
+#twitter, #instagram, #youtube{
+    background-color: white;
+    padding: 10px;
+   /* max-width: 20px; */
+   border-radius: 20px;
+   box-shadow: 0px 5px 10px rgb(81, 81, 81);
+}
+#twitter:hover, #instagram:hover, #youtube:hover{
+    background-color: silver;
+    transition: all .3s;
+    
+}
+.email-form{
+    width: 500px;
+    height: 80px;
+    border: none;
+    position: relative;
+    left: 90px;
+    bottom: 40px;
+    padding-left: 30px;
+    font-size: 18px;
+    /* background-color: rebeccapurple; */
+}
+footer .logo{
+    padding-left: 100px;
+   position: relative;
+   font-size: 50px;
+   text-transform: uppercase;
+   bottom: 10px;
+   font-family: better grade;
+   font-weight: 590;
+   position: relative;
+   top: 60px;
+
+}
+.container .logo span{
+    color: rgb(176, 3, 3);
+}
